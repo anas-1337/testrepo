@@ -4,18 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Dolphin dolphinObject = new Dolphin();
         Tiger tigerObject = new Tiger();
-        Penguin penguinObject = new Penguin();
-
-        // for getting input
-        Scanner keyboard = new Scanner(System.in);
-
-        // for loop continuation - 1 represents true
-        int continueOuterLoop = 1  ;
-        int continueInnerLoop = 1;
-
-        // for menu choice
-        int menuChoice = 1;
-
+        Penguin penguinObject = new Penguin()
 
 
         do {
